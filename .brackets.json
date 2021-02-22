@@ -1,0 +1,16 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "sass/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../public/css/",
+                "output": "style.css",
+                "includePaths": [],
+                "sourceComments": true,
+                "outputStyle": "compressed"
+
+            }
+        }
+    } 
+}
