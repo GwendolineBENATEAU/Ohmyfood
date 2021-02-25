@@ -2,8 +2,11 @@
   "version": 3,
   "file": "style.css",
   "sources": [
-    "../../sass/style.scss"
+    "../../sass/style.scss",
+    "../../sass/utils/_variables.scss",
+    "../../sass/base/_base.scss",
+    "../../sass/layout/_footer.scss"
   ],
   "names": [],
-  "mappings": ""
+  "mappings": ";AEAA,AAAA,CAAC,EAAE,AAAA,CAAC,AAAA,QAAQ,EAAE,AAAA,CAAC,AAAA,OAAO,EAAE,AAAA,IAAI,CAC5B;EACI,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU,GACzB;;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,CAAC,CACL;EACI,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,OAAO,GACjB"
 }

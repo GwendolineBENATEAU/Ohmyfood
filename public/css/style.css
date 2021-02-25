@@ -1,2 +1,14 @@
+/* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+*, *::before, *::after, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 9, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit; }
 
 /*# sourceMappingURL=style.css.map */
