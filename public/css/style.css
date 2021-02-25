@@ -11,4 +11,14 @@ ul, li, a {
   text-decoration: none;
   color: inherit; }
 
+/* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+.footer {
+  background-color: #343434;
+  color: #ffffff;
+  padding-left: 25px; }
+  /* line 6, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer__list {
+    display: flex;
+    justify-content: flex-start; }
+
 /*# sourceMappingURL=style.css.map */

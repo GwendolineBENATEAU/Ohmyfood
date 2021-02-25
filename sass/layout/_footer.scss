@@ -1,0 +1,12 @@
+.footer
+{
+    background-color: $dark-bkgc;
+    color: $white-color;
+    padding-left: 25px; 
+    &__list
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
