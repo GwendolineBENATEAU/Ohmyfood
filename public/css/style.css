@@ -1,24 +1,89 @@
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
-*, *::before, *::after, body {
-  width: 100%;
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: inherit; }
 
-/* line 9, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+/* line 10, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+body {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #000000;
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300; }
+
+/* line 25, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+h1 {
+  font-family: "Shrikhand", cursive, sans-serif;
+  font-size: 1.75rem; }
+
+/* line 34, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+h2 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700; }
+
+/* line 44, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700; }
+
+/* line 54, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+h4 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.063rem;
+  font-weight: 400; }
+
+/* line 64, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+h5 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400; }
+
+/* line 76, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
 ul, li, a {
   list-style: none;
   text-decoration: none;
   color: inherit; }
+  /* line 81, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+  ul:visited, li:visited, a:visited {
+    color: inherit; }
 
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
 .footer {
   background-color: #343434;
   color: #ffffff;
-  padding-left: 25px; }
-  /* line 6, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
-  .footer__list {
+  height: 197px;
+  padding: 20px 25px;
+  line-height: 1.67; }
+  /* line 8, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer__title {
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 12px;
+    margin: 0; }
+  /* line 15, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer__item {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start; }
+  /* line 21, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer .fas {
+    font-size: 0.8rem; }
+    /* line 24, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+    .footer .fas.fa-hands-helping {
+      transform: scale(0.7, 1);
+      padding-right: 8px;
+      margin-left: -4px; }
+    /* line 30, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+    .footer .fas.fa-utensils {
+      padding-right: 10px;
+      margin-top: -2px; }
 
 /*# sourceMappingURL=style.css.map */

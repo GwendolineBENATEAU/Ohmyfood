@@ -1,14 +1,86 @@
-*, *::before, *::after, body
+*,
+*::after,
+*::before 
 {
-    width: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
+body
+{
+    box-sizing: border-box;
+    background-color: $white-color;
+    color: $black-color;
+    width: 100%;
+    margin: auto;
+    font:
+        {
+            family: $text-font;
+            size: 1.125rem;
+            weight: 300;
+            }
+}
+
+h1
+{
+    font:
+        {
+            family: $logo-font;
+            size: 1.75rem;
+            }
+}
+
+h2
+{
+    font:
+        {
+            family: $text-font;
+            size: 1.5rem;
+            weight: 700;
+            }
+}
+
+h3
+{
+    font:
+        {
+            family: $text-font;
+            size: 1.125rem;
+            weight: 700;
+            }
+}
+
+h4
+{
+    font:
+        {
+            family: $text-font;
+            size: 1.063rem;
+            weight: 400;
+            }
+}
+
+h5
+{
+    font:
+        {
+            family: $text-font;
+            size: 1rem;
+            weight: 400;
+            }
+}
+
+
+
 ul, li, a
+{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    &:visited 
     {
-        list-style: none;
-        text-decoration: none;
         color: inherit;
     }
+}
+

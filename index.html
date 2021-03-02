@@ -10,13 +10,13 @@
 
         <!-- Liaison vers les polices externes GoogleFont -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
         <!-- Liaison vers la bibliothèque externe d'icônes FontAwesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
     </head>
 
     <body>
+       
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
         </header>
@@ -24,13 +24,13 @@
         <main>
             <section class="position">
                 <i class="fas fa-map-marker-alt"></i>
-                <span class="position__result">Paris, Belleville</span>
+                <h5 class="position__result">Paris, Belleville</h5>
             </section>
 
             <section class="about">
                 <h2 class="about__title">R&eacute;servez le menu qui vous convient</h2>
                 <p class="about__byline">D&eacute;couvrez des restaurants d'exception, s&eacute;lectionn&eacute;s par nos soins.</p>
-                <a class="about__btn" href="#">Explorer nos restaurants</a>
+                <a class="btn" href="#">Explorer nos restaurants</a>
             </section>
 
             <section class="manual">
@@ -39,24 +39,23 @@
                     <li>
                         <span>1</span>
                         <i class="fas fa-mobile-alt"></i>
-                        <h3>Choisissez un restaurant</h3>
+                        <h5>Choisissez un restaurant</h5>
                     </li>
                     <li>
                         <span>2</span>
                         <i class="fas fa-bars"></i>
-                        <h3>Composez votre menu</h3>
+                        <h5>Composez votre menu</h5>
                     </li>
                     <li>
                         <span>3</span>
                         <i class="fas fa-store"></i>
-                        <h3>D&eacute;gustez au restaurant</h3>
+                        <h5>D&eacute;gustez au restaurant</h5>
                     </li>
                 </ul>
-
-
             </section>
 
             <section class="list">
+                <h2>Restaurants</h2>
 
                 <div class="list__card">
                     <a href="palette.html">
@@ -66,7 +65,7 @@
                         </div>
                         <div class="list__text">
                             <h3>La palette du go&ucirc;t</h3>
-                            <p>M&eacute;nilmontant</p>
+                            <h4>M&eacute;nilmontant</h4>
                             <i class="far fa-heart"></i>
                         </div>
                     </a>
@@ -80,7 +79,7 @@
                         </div>
                         <div class="list__text">
                             <h3>La note enchant&eacute;e</h3>
-                            <p>Charonne</p>
+                            <h4>Charonne</h4>
                             <i class="far fa-heart"></i>
                         </div>
                     </a>
@@ -93,7 +92,7 @@
                         </div>
                         <div class="list__text">
                             <h3>&Aacute; la fran&ccedil;aise</h3>
-                            <p>Cit&eacute; Rouge</p>
+                            <h4>Cit&eacute; Rouge</h4>
                             <i class="far fa-heart"></i>
                         </div>
                     </a>
@@ -106,7 +105,7 @@
                         </div>
                         <div class="list__text">
                             <h3>Le d&eacute;lice des sens</h3>
-                            <p>Folie-M&eacute;ricourt</p>
+                            <h4>Folie-M&eacute;ricourt</h4>
                             <i class="far fa-heart"></i>
                         </div>
                     </a>
@@ -116,37 +115,30 @@
         </main>
 
         <footer class="footer">
-            <h2>ohmyfood</h2>
-            <ul class="footer__items">
+            <h1 class="footer__title">ohmyfood</h1>
+            <ul class="footer__item">
                 <li class="footer__list">
-                    <i class="fas fa-utensils"></i>
                     <a href="#">
-
-                        <h3>Proposer un restaurant</h3>
-                    </a>
-                </li>
-                <li class="footer__list">
-                    <i class="fas fa-hands-helping"></i>
-                    <a href="#">
-
-                        <h3>Devenir partenaire</h3>
+                        <h5><i class="fas fa-utensils"></i>Proposer un restaurant</h5>
                     </a>
                 </li>
                 <li class="footer__list">
                     <a href="#">
-                        <h3>Mentions l&eacute;gales</h3>
+                        <h5><i class="fas fa-hands-helping"></i>Devenir partenaire</h5>
                     </a>
                 </li>
                 <li class="footer__list">
                     <a href="#">
-                        <h3>Contact</h3>
+                        <h5>Mentions l&eacute;gales</h5>
+                    </a>
+                </li>
+                <li class="footer__list">
+                    <a href="mailto:contact@ohmyfood.com">
+                        <h5>Contact</h5>
                     </a>
                 </li>
             </ul>
-
         </footer>
-
-
 
     </body>
 </html>

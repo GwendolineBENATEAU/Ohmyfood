@@ -2,11 +2,35 @@
 {
     background-color: $dark-bkgc;
     color: $white-color;
-    padding-left: 25px; 
-    &__list
+    height: 197px;
+    padding: 20px 25px; 
+    line-height: 1.67;
+    &__title
+    {
+        font-size: 1.125rem;
+        font-weight: 400;
+        padding-bottom: 12px;
+        margin: 0;
+    }
+    &__item
     {
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
     }
-
+    .fas
+    {
+        font-size: 0.8rem;
+        &.fa-hands-helping 
+        {
+            transform: scale(0.7, 1);//écrasement latéral du picto poignée de main
+            padding-right: 8px;
+            margin-left: -4px;
+        }
+        &.fa-utensils 
+        {
+            padding-right: 10px;
+            margin-top: -2px;
+        }
+    }
 }
