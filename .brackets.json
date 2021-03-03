@@ -8,9 +8,9 @@
                 "output": "style.css",
                 "includePaths": [],
                 "sourceComments": true,
-                "outputStyle": "compressed"
-
-            }
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false
         }
-    } 
+    }
 }
