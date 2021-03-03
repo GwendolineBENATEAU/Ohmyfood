@@ -1,9 +1,9 @@
 .footer
 {
-    background-color: $dark-bkgc;
-    color: $white-color;
     height: 197px;
     padding: 20px 25px;
+    background-color: $dark-bkgc;
+    color: $white-color;
     line-height: 1.67;
     
     &__title
@@ -22,11 +22,11 @@
         justify-content: flex-start;
     }
     
-    &__list h5
+    &__item h4
     {
         font-family: $text-font;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 400; 
     }
     
     .fas
