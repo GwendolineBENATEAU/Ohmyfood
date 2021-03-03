@@ -7,28 +7,3 @@
 @import "layout/footer";
 
 @import "pages/home";
-
-.position
-{
-    height: 3.1rem;
-    padding: 20px;
-    color: $grey-color;
-    background: $medium-bkgc;
-    @include top-shadow;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    
-    & > .fa-map-marker-alt
-    {
-        margin-left: -30px;
-        margin-right: 15px;
-    }
-    
-    &__result
-    {
-        font-family: $text-font;
-        font-weight: 700;        
-    }
-}

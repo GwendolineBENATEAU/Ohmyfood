@@ -1,10 +1,14 @@
 .header
 {
-    height: 3.94rem;
-    padding: 22px;
-    text-align: center;
+    min-height: 63px;
+    padding-top: 23px;
+    padding-bottom: 12px;
+    
+    display: flex;
+    justify-content: space-around;
+    
     &__logo
     {
-        width: 50%;
+        width: 44%;
     }
 }
