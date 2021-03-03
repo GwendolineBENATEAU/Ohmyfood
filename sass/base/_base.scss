@@ -14,64 +14,7 @@ body
     color: $black-color;
     width: 100%;
     margin: auto;
-    font:
-        {
-            family: $text-font;
-            size: 1.125rem;
-            weight: 300;
-            }
 }
-
-h1
-{
-    font:
-        {
-        family: $logo-font;
-        size: 1.75rem;
-        }
-}
-
-h2
-{
-    font:
-        {
-            family: $text-font;
-            size: 1.5rem;
-            weight: 700;
-            }
-}
-
-h3
-{
-    font:
-        {
-            family: $text-font;
-            size: 1.125rem;
-            weight: 700;
-            }
-}
-
-h4
-{
-    font:
-        {
-            family: $text-font;
-            size: 1.063rem;
-            weight: 400;
-            }
-}
-
-h5
-{
-    font:
-        {
-            family: $text-font;
-            size: 1rem;
-            weight: 400;
-            }
-}
-
-
 
 ul, li, a
 {
