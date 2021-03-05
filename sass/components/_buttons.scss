@@ -1,0 +1,14 @@
+.btn
+{
+    width: 21.8rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    @include box-darkshadow; 
+    background: -webkit-gradient(linear, left top, right bottom, from($secondary-color), to($primary-color)); 
+    background: -webkit-linear-gradient(top left, $secondary-color, $primary-color); 
+    background: -o-linear-gradient(top left, $secondary-color, $primary-color); 
+    background: linear-gradient(to bottom right, $secondary-color, $primary-color);
+    color: white;
+    @include font ($text-font, 1.6rem, 400);
+    @include flex-center;
+}

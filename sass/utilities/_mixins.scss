@@ -1,3 +1,56 @@
-@mixin top-shadow {
-    box-shadow: inset 0px 2px 5px #CECECE;
+//box-shadows
+@mixin box-topshadow 
+{
+    -webkit-box-shadow: inset 0px 2px 5px $medium-colorshadow;
+    box-shadow: inset 0px 2px 5px $medium-colorshadow;
+}
+@mixin box-darkshadow 
+{
+    -webkit-box-shadow: 0 5px 10px 0 $dark-colorshadow;
+    box-shadow: 0 5px 10px 0 $dark-colorshadow;
+}
+@mixin box-lightshadow 
+{
+    -webkit-box-shadow: 0 6px 8px 0 $light-colorshadow;
+    box-shadow: 0 6px 8px 0 $light-colorshadow;
+}
+
+//flexbox
+@mixin flex-center 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@mixin flex-column-between 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+//font styling
+@mixin font($family, $size, $weight, $line-height:1) 
+{
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line-height;
 }

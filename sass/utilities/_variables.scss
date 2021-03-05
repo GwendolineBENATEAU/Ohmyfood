@@ -1,18 +1,23 @@
-//colors theme
-$primary-color: #9356DC;
-$secondary-color: #FF79DA;
-$tertiary-color: #99E2D0;
-//background colors
-$light-bkgc: #F6F6F6;
-$medium-bkgc: #EAEAEA;
-$dark-bkgc: #343434;
-//colors base
-$black-color: #000000;
-$white-color: #ffffff;
-$grey-color: #353535;
-
+//unités base
+$base-fontsize: 62.5%;// 10px div by def of 16px
 
 //font
 $logo-font: 'Shrikhand', cursive, sans-serif;
 $text-font: 'Roboto', Arial, sans-serif;
-$base-font-size: 14px;
+
+//colors charte
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+//colors base
+$black-color: #000000;
+$white-color: #ffffff;
+$grey-color: #353535;
+//colors background 
+$light-bkgc: #F6F6F6;
+$medium-bkgc: #EAEAEA;
+$dark-bkgc: #343434;
+//colors shadows
+$light-colorshadow:#e5e5e5;
+$medium-colorshadow:#cfcfcf;
+$dark-colorshadow:#c5c5c5;

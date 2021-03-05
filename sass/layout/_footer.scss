@@ -1,47 +1,37 @@
 .footer
 {
-    height: 197px;
-    padding: 20px 25px;
+    height: 19.7rem;
+    padding: 2rem 2.5rem;
     background-color: $dark-bkgc;
     color: $white-color;
-    line-height: 1.67;
-    
+
+
     &__title
     {
-        font-family: $logo-font;
-        font-size: 18px;
-        font-weight: 400;
-        padding-bottom: 13px;
-        margin: 0;
+        padding-bottom: 1.3rem;
+        @include font ($logo-font, 1.8rem, 400);
     }
-    
-    &__item
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    
+
     &__item h4
     {
-        font-family: $text-font;
-        font-size: 16px;
-        font-weight: 400; 
+        @include font ($text-font, 1.6rem, 400, 1.67);
     }
-    
+
     .fas
     {
-        font-size: 12.8px;
+        font-size: 1.28rem;
         &.fa-hands-helping 
         {
+            -webkit-transform: scale(0.7, 1);
+            -ms-transform: scale(0.7, 1);
             transform: scale(0.7, 1);//écrasement latéral du picto poignée de main
-            padding-right: 10px;
-            margin-left: -4px;
+            padding-right: 1rem;
+            margin-left: -0.4rem;
         }
         &.fa-utensils 
         {
-            padding-right: 12px;
-            margin-top: -2px;
+            padding-right: 1.2rem;
+            margin-top: -0.2rem;
         }
     }
 }
