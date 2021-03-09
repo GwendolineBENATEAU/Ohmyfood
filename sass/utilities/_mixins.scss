@@ -1,18 +1,18 @@
 //box-shadows
 @mixin box-topshadow 
 {
-    -webkit-box-shadow: inset 0px 2px 5px $medium-colorshadow;
-    box-shadow: inset 0px 2px 5px $medium-colorshadow;
+    -webkit-box-shadow: inset 0px 2px 5px lighten($grey-color, 60%);
+    box-shadow: inset 0px 2px 5px lighten($grey-color, 60%);
 }
 @mixin box-darkshadow 
 {
-    -webkit-box-shadow: 0 5px 10px 0 $dark-colorshadow;
-    box-shadow: 0 5px 10px 0 $dark-colorshadow;
+    -webkit-box-shadow: 0 5px 10px 0 lighten($grey-color, 60%);
+    box-shadow: 0 5px 10px 0 lighten($grey-color, 60%);
 }
 @mixin box-lightshadow 
 {
-    -webkit-box-shadow: 0 6px 8px 0 $light-colorshadow;
-    box-shadow: 0 6px 8px 0 $light-colorshadow;
+    -webkit-box-shadow: 0 6px 8px 0 lighten($grey-color, 69%);
+    box-shadow: 0 6px 8px 0 lighten($grey-color, 69%);
 }
 
 //flexbox

@@ -3,7 +3,7 @@
     height: 5rem;
     padding: 1.8rem;
     color: $grey-color;
-    background: $medium-bkgc;
+    background: lighten($grey-color, 71%);
     @include box-topshadow;   
     @include flex-center;
 
@@ -12,14 +12,11 @@
         @include font ($text-font, 1.6rem, 500);
     }
 
-    .fas
+    .fa-map-marker-alt
     {
         font-size: 1.6rem;
-        &.fa-map-marker-alt
-        {
-            margin-left: -3.1rem;
-            margin-right: 1.6rem;
-        }
+        margin-left: -3.1rem;
+        margin-right: 1.6rem;
     }
 }
 
@@ -27,7 +24,7 @@
 {
     height: 28.7rem;
     padding: 3.7rem 3rem 5.7rem 3rem;
-    background: $light-bkgc;    
+    background: lighten($grey-color, 76%);    
     @include flex-column-between;
     text-align: center;
 
@@ -52,28 +49,28 @@
 
     &__title
     {
-        padding-bottom: 2.8rem;
+        padding-bottom: 3.3rem;
         @include font ($text-font, 2.4rem, 700);    
     }
 
     &__list
     {
-
-        height: 7.3rem;
-        padding-top: .9rem;
+        height: 7.2rem;
+        padding-top: .7rem;
         margin-bottom: 2.5rem;
         margin-left: 1rem;
         border-radius: 2.1rem;
-        background-color: $light-bkgc;
+        background: lighten($grey-color, 76%);
         @include box-lightshadow; 
         @include flex-center;
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
-        @include font ($text-font, 1.6rem, 300);   
+        @include font ($text-font, 1.6rem, 300); 
+
         &:hover
         {
-            background-color: $lilas-bkgc;
+            background-color: lighten($primary-color, 35%);
             & > i
             {
                 color: $primary-color;
@@ -94,7 +91,7 @@
 
     &__list > i
     {
-        color: $gray-color;
+        color: lighten($grey-color, 29%);
     }
 
     .fa-mobile-alt

@@ -1,37 +1,35 @@
 .footer
 {
     height: 19.7rem;
-    padding: 2rem 2.5rem;
-    background-color: $dark-bkgc;
+    padding: 2.5rem;
+    background-color: $grey-color;
     color: $white-color;
-
 
     &__title
     {
-        padding-bottom: 1.3rem;
+        padding-bottom: 1.9rem;
         @include font ($logo-font, 1.8rem, 400);
     }
 
-    &__item h4
+    &__list h4
     {
         @include font ($text-font, 1.6rem, 400, 1.67);
     }
 
-    .fas
+    .fa-hands-helping 
     {
         font-size: 1.28rem;
-        &.fa-hands-helping 
-        {
-            -webkit-transform: scale(0.7, 1);
-            -ms-transform: scale(0.7, 1);
-            transform: scale(0.7, 1);//écrasement latéral du picto poignée de main
-            padding-right: 1rem;
-            margin-left: -0.4rem;
-        }
-        &.fa-utensils 
-        {
-            padding-right: 1.2rem;
-            margin-top: -0.2rem;
-        }
+        -webkit-transform: scale(0.7, 1);
+        -ms-transform: scale(0.7, 1);
+        transform: scale(0.7, 1);//écrasement latéral du picto poignée de main
+        padding-right: 1rem;
+        margin-left: -0.4rem;
+    }
+
+    .fa-utensils 
+    {
+        font-size: 1.28rem;
+        padding-right: 1.2rem;
+        margin-top: -0.2rem;
     }
 }
