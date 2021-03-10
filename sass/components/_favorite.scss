@@ -1,0 +1,40 @@
+//favorite input
+input[type="checkbox"] 
+{
+    visibility: hidden;
+}
+
+.fav
+{
+    cursor: pointer;
+    font-size: 2.3rem;
+    position: absolute;
+    right: 1.2rem;
+    bottom: 1.45rem;
+
+    & .fav--solid
+    {
+        opacity: 0;
+    }
+
+    & .fav--empty
+    {
+        margin-top: -0.2rem;
+    }
+}
+
+input[type=checkbox]:checked + .fav span 
+{
+    background: -webkit-gradient(linear, right top, left bottom, from($primary-color), to($secondary-color));
+    background: -webkit-linear-gradient(top right, $primary-color, $secondary-color);
+    background: -o-linear-gradient(top right, $primary-color, $secondary-color);
+    background: linear-gradient(to bottom left, $primary-color, $secondary-color);
+    /*background-clip: text;*/
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 1;
+    -webkit-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    transition: all 3s ease-out;
+}
+
