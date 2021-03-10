@@ -17,6 +17,11 @@
     </head>
 
     <body>
+        <div class="loader">
+            <div class="loader__spinner"></div>  
+            <div class="loader__caption">Chargement de la page</div>
+        </div>
+
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
         </header>
@@ -59,27 +64,38 @@
                 <div class="listing__card">
                     <a href="palette.html">
                         <img class="listing__img" src="public/img/restaurants/restaurant-la-palette-du-gout.jpg" alt="Restaurant La palette du go&ucirc;t">
-
                         <div class="listing__text">
                             <h3>La palette du go&ucirc;t</h3>
                             <p>M&eacute;nilmontant</p>
-                            <i class="far fa-heart"></i>
                         </div>
                         <p class="listing__sticker">Nouveau</p>
                     </a>
+                    <div>
+                        <input id="favorite-1" name="favorite" type="checkbox" />
+                        <label class="fav" for="favorite-1">
+                            <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                            <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                        </label>
+                    </div>
+                    
                 </div>
 
                 <div class="listing__card">
                     <a href="note.html">
                         <img class="listing__img" src="public/img/restaurants/restaurant-la-note-enchantee.jpg" alt="Restaurant La note enchant&eacute;e">
-
                         <div class="listing__text">
                             <h3>La note enchant&eacute;e</h3>
                             <p>Charonne</p>
-                            <i class="far fa-heart"></i>
                         </div>
                         <p class="listing__sticker">Nouveau</p>
                     </a>
+                    <div>
+                        <input id="favorite-2" name="favorite" type="checkbox" />
+                        <label class="fav" for="favorite-2">
+                            <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                            <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                        </label>
+                    </div>
                 </div>
 
                 <div class="listing__card">
@@ -88,9 +104,15 @@
                         <div class="listing__text">
                             <h3>&Aacute; la fran&ccedil;aise</h3>
                             <p>Cit&eacute; Rouge</p>
-                            <i class="far fa-heart"></i>
                         </div>
                     </a>
+                    <div>
+                        <input id="favorite-3" name="favorite" type="checkbox" />
+                        <label class="fav" for="favorite-3">
+                            <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                            <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                        </label>
+                    </div>
                 </div>
 
                 <div class="listing__card">
@@ -99,9 +121,15 @@
                         <div class="listing__text">
                             <h3>Le d&eacute;lice des sens</h3>
                             <p>Folie-M&eacute;ricourt</p>
-                            <i class="far fa-heart"></i>
                         </div>
                     </a>
+                    <div>
+                        <input id="favorite-4" name="favorite" type="checkbox" />
+                        <label class="fav" for="favorite-4">
+                            <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                            <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                        </label>
+                    </div>
                 </div>
 
             </section>

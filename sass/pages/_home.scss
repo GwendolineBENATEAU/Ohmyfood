@@ -151,7 +151,6 @@
         width: 100%;
         -o-object-fit: cover;
         object-fit: cover;
-        position: relative;
     }
 
     &__sticker
@@ -173,7 +172,6 @@
     &__text
     {
         padding: 1.2rem 1.3rem;
-        position: relative;
 
         h3
         {
@@ -184,16 +182,6 @@
         {
             @include font ($text-font, 1.7rem, 300);
         }
-
-        .fa-heart
-        {
-            font-size: 2.3rem;
-            font-weight: 100;
-            position: absolute;
-            right: 2.4rem;
-            top: 2.1rem;
-        }
-
     }
 }
 
