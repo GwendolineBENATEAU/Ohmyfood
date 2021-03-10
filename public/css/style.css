@@ -4,131 +4,315 @@
 *::before {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
-/* line 10, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+/* line 11, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
 html, body {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   margin: auto;
   background-color: #ffffff;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 62.5%;
   color: #000000; }
 
-/* line 21, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+/* line 22, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
 ul, li, a {
   list-style: none;
   text-decoration: none;
   color: inherit; }
-  /* line 26, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
+  /* line 27, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
   ul:visited, li:visited, a:visited {
     color: inherit; }
 
+/* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_buttons.scss */
+.btn {
+  width: 21.8rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+  -webkit-box-shadow: 0 5px 10px 0 #cecece;
+  box-shadow: 0 5px 10px 0 #cecece;
+  background: -webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+  background: -webkit-linear-gradient(top left, #FF79DA, #9356DC);
+  background: -o-linear-gradient(top left, #FF79DA, #9356DC);
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  color: white;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_header.scss */
 .header {
-  min-height: 63px;
-  padding-top: 23px;
-  padding-bottom: 12px;
-  display: flex;
-  justify-content: space-around; }
-  /* line 10, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_header.scss */
+  min-height: 6.3rem;
+  padding-top: 2.3rem;
+  padding-bottom: 1rem;
+  text-align: center; }
+  /* line 8, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_header.scss */
   .header__logo {
     width: 44%; }
 
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
 .footer {
-  height: 197px;
-  padding: 20px 25px;
-  background-color: #343434;
-  color: #ffffff;
-  line-height: 1.67; }
-  /* line 9, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  height: 19.7rem;
+  padding: 2.5rem;
+  background-color: #353535;
+  color: #ffffff; }
+  /* line 8, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
   .footer__title {
+    padding-bottom: 1.9rem;
     font-family: "Shrikhand", cursive, sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
-    padding-bottom: 13px;
-    margin: 0; }
-  /* line 18, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
-  .footer__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; }
-  /* line 25, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
-  .footer__item h4 {
+    line-height: 1; }
+  /* line 14, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer__list h4 {
     font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400; }
-  /* line 32, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
-  .footer .fas {
-    font-size: 12.8px; }
-    /* line 35, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
-    .footer .fas.fa-hands-helping {
-      transform: scale(0.7, 1);
-      padding-right: 10px;
-      margin-left: -4px; }
-    /* line 41, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
-    .footer .fas.fa-utensils {
-      padding-right: 12px;
-      margin-top: -2px; }
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.67; }
+  /* line 19, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer .fa-hands-helping {
+    font-size: 1.28rem;
+    -webkit-transform: scale(0.7, 1);
+    -ms-transform: scale(0.7, 1);
+    transform: scale(0.7, 1);
+    padding-right: 1rem;
+    margin-left: -0.4rem; }
+  /* line 29, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_footer.scss */
+  .footer .fa-utensils {
+    font-size: 1.28rem;
+    padding-right: 1.2rem;
+    margin-top: -0.2rem; }
 
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
 .position {
-  height: 50px;
-  padding: 15px;
+  height: 5rem;
+  padding: 1.8rem;
   color: #353535;
-  background: #EAEAEA;
-  box-shadow: inset 0px 2px 5px #CECECE;
+  background: #eaeaea;
+  -webkit-box-shadow: inset 0px 2px 5px #cecece;
+  box-shadow: inset 0px 2px 5px #cecece;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
-  /* line 12, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  /* line 10, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
   .position__result {
     font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 500; }
-  /* line 19, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
-  .position .fas {
-    font-size: 16px; }
-    /* line 22, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
-    .position .fas.fa-map-marker-alt {
-      margin-left: -30px;
-      margin-right: 15px; }
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1; }
+  /* line 15, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .position .fa-map-marker-alt {
+    font-size: 1.6rem;
+    margin-left: -3.1rem;
+    margin-right: 1.6rem; }
 
-/* line 30, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
-.about {
-  height: 287px;
-  padding: 37px 30px 58px 30px;
-  background: #F6F6F6;
+/* line 23, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+.discover {
+  height: 28.7rem;
+  padding: 3.7rem 3rem 5.7rem 3rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  text-align: center;
-  line-height: 1.2; }
-  /* line 44, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
-  .about__title {
-    padding: 0 31px 0 15px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center; }
+  /* line 31, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .discover__title {
+    padding-left: 0.6rem;
+    padding-right: 2.2rem;
     font-family: "Roboto", Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 700; }
-  /* line 52, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
-  .about__byline {
-    padding-bottom: 18px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1; }
+  /* line 38, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .discover__byline {
+    padding-bottom: 1.8rem;
     font-family: "Roboto", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 100; }
-  /* line 60, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
-  .about .btn {
-    width: 218px;
-    height: 50px;
-    border-radius: 25px;
-    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    color: white;
-    font-size: 16px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1; }
+
+/* line 45, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+.manual {
+  height: 44rem;
+  padding: 4.7rem 2rem; }
+  /* line 50, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual__title {
+    padding-bottom: 3.3rem;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1; }
+  /* line 56, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual__list {
+    height: 7.2rem;
+    padding-top: .7rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+    border-radius: 2.1rem;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 6px 8px 0 #e5e5e5;
+    box-shadow: 0 6px 8px 0 #e5e5e5;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    justify-content: space-around; }
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1; }
+    /* line 71, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+    .manual__list:hover {
+      background-color: #f2eafb; }
+      /* line 74, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+      .manual__list:hover > i {
+        color: #9356DC; }
+  /* line 81, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual__list > span {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: -9px;
+    background-color: #9356DC;
+    color: #ffffff;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  /* line 92, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual__list > i {
+    color: #7f7f7f; }
+  /* line 97, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual .fa-mobile-alt {
+    font-size: 2rem;
+    margin-left: 23px;
+    margin-right: 27px; }
+  /* line 104, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual .fa-list-ul {
+    font-size: 1.8rem;
+    margin-left: 23px;
+    margin-right: 21px;
+    -webkit-transform: scale(0.9, 1);
+    -ms-transform: scale(0.9, 1);
+    transform: scale(0.9, 1); }
+  /* line 114, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .manual .fa-store {
+    font-size: 1.6rem;
+    margin-left: 25px;
+    margin-right: 19px;
+    -webkit-transform: scale(0.95, 1.2);
+    -ms-transform: scale(0.95, 1.2);
+    transform: scale(0.95, 1.2); }
+
+/* line 125, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+.listing {
+  height: 122.6rem;
+  padding: 5.3rem 2rem;
+  background: #f7f7f7; }
+  /* line 131, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .listing__title {
+    padding-bottom: 2.4rem;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1; }
+  /* line 137, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .listing__card {
+    height: 25.1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    -webkit-box-shadow: 0 6px 8px 0 #e5e5e5;
+    box-shadow: 0 6px 8px 0 #e5e5e5;
+    position: relative; }
+  /* line 148, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .listing__img {
+    height: 69.32%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative; }
+  /* line 157, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .listing__sticker {
+    width: 8rem;
+    height: 3rem;
+    padding: 0.8rem;
+    border-radius: .2rem;
+    background-color: #99E2D0;
+    -webkit-box-shadow: 0 2px 5px 0 #4f4f4f;
+    box-shadow: 0 2px 5px 0 #4f4f4f;
+    color: #26846d;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    position: absolute;
+    right: 1.2rem;
+    top: 1.3rem; }
+  /* line 173, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+  .listing__text {
+    padding: 1.2rem 1.3rem;
+    position: relative; }
+    /* line 178, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+    .listing__text h3 {
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1.7; }
+    /* line 183, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+    .listing__text p {
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 1.7rem;
+      font-weight: 300;
+      line-height: 1; }
+    /* line 188, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_home.scss */
+    .listing__text .fa-heart {
+      font-size: 2.3rem;
+      font-weight: 100;
+      position: absolute;
+      right: 2.4rem;
+      top: 2.1rem; }
 
 /*# sourceMappingURL=style.css.map */

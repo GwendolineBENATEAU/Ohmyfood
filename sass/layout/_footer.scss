@@ -1,47 +1,35 @@
 .footer
 {
-    height: 197px;
-    padding: 20px 25px;
-    background-color: $dark-bkgc;
+    height: 19.7rem;
+    padding: 2.5rem;
+    background-color: $grey-color;
     color: $white-color;
-    line-height: 1.67;
-    
+
     &__title
     {
-        font-family: $logo-font;
-        font-size: 18px;
-        font-weight: 400;
-        padding-bottom: 13px;
-        margin: 0;
+        padding-bottom: 1.9rem;
+        @include font ($logo-font, 1.8rem, 400);
     }
-    
-    &__item
+
+    &__list h4
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        @include font ($text-font, 1.6rem, 400, 1.67);
     }
-    
-    &__item h4
+
+    .fa-hands-helping 
     {
-        font-family: $text-font;
-        font-size: 16px;
-        font-weight: 400; 
+        font-size: 1.28rem;
+        -webkit-transform: scale(0.7, 1);
+        -ms-transform: scale(0.7, 1);
+        transform: scale(0.7, 1);//écrasement latéral du picto poignée de main
+        padding-right: 1rem;
+        margin-left: -0.4rem;
     }
-    
-    .fas
+
+    .fa-utensils 
     {
-        font-size: 12.8px;
-        &.fa-hands-helping 
-        {
-            transform: scale(0.7, 1);//écrasement latéral du picto poignée de main
-            padding-right: 10px;
-            margin-left: -4px;
-        }
-        &.fa-utensils 
-        {
-            padding-right: 12px;
-            margin-top: -2px;
-        }
+        font-size: 1.28rem;
+        padding-right: 1.2rem;
+        margin-top: -0.2rem;
     }
 }

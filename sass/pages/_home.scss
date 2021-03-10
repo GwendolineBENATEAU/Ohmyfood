@@ -1,72 +1,219 @@
 .position
 {
-    height: 50px;
-    padding: 15px;
+    height: 5rem;
+    padding: 1.8rem;
     color: $grey-color;
-    background: $medium-bkgc;
-    @include top-shadow;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: lighten($grey-color, 71%);
+    @include box-topshadow;   
+    @include flex-center;
 
     &__result
     {
-        font-family: $text-font;
-        font-size: 16px;
-        font-weight: 500;
+        @include font ($text-font, 1.6rem, 500);
     }
 
-    .fas
+    .fa-map-marker-alt
     {
-        font-size: 16px;
-        &.fa-map-marker-alt
-        {
-            margin-left: -30px;
-            margin-right: 15px;
-        }
+        font-size: 1.6rem;
+        margin-left: -3.1rem;
+        margin-right: 1.6rem;
     }
 }
 
-.about
+.discover
 {
-
-    height: 287px;
-    padding: 37px 30px 58px 30px;
-
-    background: $light-bkgc;    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    height: 28.7rem;
+    padding: 3.7rem 3rem 5.7rem 3rem;
+    background: lighten($grey-color, 76%);    
+    @include flex-column-between;
     text-align: center;
-    line-height: 1.2;
 
     &__title
     {
-        padding: 0 31px 0 15px;
-        font-family: $text-font;
-        font-size: 24px;
-        font-weight: 700;        
+        padding-left: 0.6rem;
+        padding-right: 2.2rem;
+        @include font ($text-font, 2.4rem, 700);
     }
 
     &__byline
     {
-        padding-bottom: 18px;
-        font-family: $text-font;
-        font-size: 18px;
-        font-weight: 100;        
-    }
-
-    .btn
-    {
-        width: 218px;
-        height: 50px;
-        border-radius: 25px;
-        background: linear-gradient(to bottom right, $secondary-color, $primary-color);
-        color: white;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        padding-bottom: 1.8rem;
+        @include font ($text-font, 1.8rem, 300);   
     }
 }
+
+.manual
+{
+    height: 44rem;
+    padding: 4.7rem 2rem;
+
+    &__title
+    {
+        padding-bottom: 3.3rem;
+        @include font ($text-font, 2.4rem, 700);    
+    }
+
+    &__list
+    {
+        height: 7.2rem;
+        padding-top: .7rem;
+        margin-bottom: 2.5rem;
+        margin-left: 1rem;
+        border-radius: 2.1rem;
+        background: lighten($grey-color, 76%);
+        @include box-lightshadow; 
+        @include flex-center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        @include font ($text-font, 1.6rem, 300); 
+
+        &:hover
+        {
+            background-color: lighten($primary-color, 35%);
+            & > i
+            {
+                color: $primary-color;
+            }
+        }
+    }
+
+    &__list > span
+    {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -9px;
+        background-color: $primary-color;
+        color: $white-color;
+        border-radius: 100%;
+        @include flex-center;        
+    }
+
+    &__list > i
+    {
+        color: lighten($grey-color, 29%);
+    }
+
+    .fa-mobile-alt
+    {
+        font-size: 2rem;
+        margin-left: 23px;
+        margin-right: 27px;
+    }
+
+    .fa-list-ul
+    {
+        font-size: 1.8rem;
+        margin-left: 23px;
+        margin-right: 21px;
+        -webkit-transform: scale(0.9, 1);
+        -ms-transform: scale(0.9, 1);
+        transform: scale(0.9, 1);
+    }
+
+    .fa-store
+    {
+        font-size: 1.6rem;
+        margin-left: 25px;
+        margin-right: 19px;
+        -webkit-transform: scale(0.95, 1.2);
+        -ms-transform: scale(0.95, 1.2);
+        transform: scale(0.95, 1.2);
+    }
+}
+
+.listing
+{
+    height: 122.6rem;
+    padding: 5.3rem 2rem;
+    background: lighten($grey-color, 76%);    
+
+    &__title
+    {
+        padding-bottom: 2.4rem;
+        @include font ($text-font, 2.4rem, 700);    
+    }
+
+    &__card
+    {
+        height: 25.1rem;
+        margin-bottom: 2rem;
+        background-color: $white-color;
+        border-radius: 1.5rem; 
+        overflow: hidden;
+        @include box-lightshadow;
+        position: relative;
+    }
+
+    &__img
+    {
+        height: 69.32%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        position: relative;
+    }
+
+    &__sticker
+    {
+        width: 8rem;
+        height: 3rem;
+        padding: 0.8rem;
+        border-radius: .2rem;
+        background-color: $tertiary-color;
+        @include box-littleshadow; 
+        color: darken($tertiary-color, 41%);
+        @include font ($text-font, 1.4rem, 500);
+        text-align: center;
+        position: absolute;
+        right: 1.2rem;
+        top: 1.3rem;
+    }
+
+    &__text
+    {
+        padding: 1.2rem 1.3rem;
+        position: relative;
+
+        h3
+        {
+            @include font ($text-font, 1.8rem, 700, 1.7);
+        }
+
+        p 
+        {
+            @include font ($text-font, 1.7rem, 300);
+        }
+
+        .fa-heart
+        {
+            font-size: 2.3rem;
+            font-weight: 100;
+            position: absolute;
+            right: 2.4rem;
+            top: 2.1rem;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

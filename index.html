@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/img/oicon.png">
         <title>Ohmyfood! | Finis les temps d'attente au restaurant | Composez votre menu en ligne</title>
         <link rel="stylesheet" href="public/css/style.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +17,6 @@
     </head>
 
     <body>
-       
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
         </header>
@@ -27,26 +27,26 @@
                 <h4 class="position__result">Paris, Belleville</h4>
             </section>
 
-            <section class="about">
-                <h2 class="about__title">R&eacute;servez le menu qui vous convient</h2>
-                <p class="about__byline">D&eacute;couvrez des restaurants d'exception, s&eacute;lectionn&eacute;s par nos soins.</p>
+            <section class="discover">
+                <h2 class="discover__title">R&eacute;servez le menu qui vous convient</h2>
+                <p class="discover__byline">D&eacute;couvrez des restaurants d'exception, s&eacute;lectionn&eacute;s par nos soins.</p>
                 <a class="btn" href="#">Explorer nos restaurants</a>
             </section>
 
             <section class="manual">
-                <h2>Fonctionnement</h2>
+                <h2 class="manual__title">Fonctionnement</h2>
                 <ul>
-                    <li>
+                    <li class="manual__list">
                         <span>1</span>
                         <i class="fas fa-mobile-alt"></i>
                         <h4>Choisissez un restaurant</h4>
                     </li>
-                    <li>
+                    <li class="manual__list">
                         <span>2</span>
-                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-list-ul"></i>
                         <h4>Composez votre menu</h4>
                     </li>
-                    <li>
+                    <li class="manual__list">
                         <span>3</span>
                         <i class="fas fa-store"></i>
                         <h4>D&eacute;gustez au restaurant</h4>
@@ -54,43 +54,38 @@
                 </ul>
             </section>
 
-            <section class="list">
-                <h2>Restaurants</h2>
-       
-                <div class="list__card">
+            <section class="listing">
+                <h2 class="listing__title">Restaurants</h2>
+                <div class="listing__card">
                     <a href="palette.html">
-                        <div class="list__img">
-                            <img src="public/img/restaurants/restaurant-la-palette-du-gout.jpg" alt="Restaurant La palette du go&ucirc;t">
-                            <p>Nouveau</p>
-                        </div>
-                        <div class="list__text">
+                        <img class="listing__img" src="public/img/restaurants/restaurant-la-palette-du-gout.jpg" alt="Restaurant La palette du go&ucirc;t">
+
+                        <div class="listing__text">
                             <h3>La palette du go&ucirc;t</h3>
                             <p>M&eacute;nilmontant</p>
                             <i class="far fa-heart"></i>
                         </div>
+                        <p class="listing__sticker">Nouveau</p>
                     </a>
                 </div>
 
-                <div class="list__card">
+                <div class="listing__card">
                     <a href="note.html">
-                        <div class="list__img">
-                            <img src="public/img/restaurants/restaurant-la-note-enchantee.jpg" alt="Restaurant La note enchant&eacute;e">
-                            <p>Nouveau</p>
-                        </div>
-                        <div class="list__text">
+                        <img class="listing__img" src="public/img/restaurants/restaurant-la-note-enchantee.jpg" alt="Restaurant La note enchant&eacute;e">
+
+                        <div class="listing__text">
                             <h3>La note enchant&eacute;e</h3>
                             <p>Charonne</p>
                             <i class="far fa-heart"></i>
                         </div>
+                        <p class="listing__sticker">Nouveau</p>
                     </a>
                 </div>
 
-                <div class="list__card">
+                <div class="listing__card">
                     <a href="francaise.html">
-                        <div class="list__img">
-                            <img src="public/img/restaurants/restaurant-a-la-francaise.jpg" alt="Restaurant &Aacute; la fran&ccedil;aise">
-                        </div>
-                        <div class="list__text">
+                        <img class="listing__img" src="public/img/restaurants/restaurant-a-la-francaise.jpg" alt="Restaurant &Aacute; la fran&ccedil;aise">
+                        <div class="listing__text">
                             <h3>&Aacute; la fran&ccedil;aise</h3>
                             <p>Cit&eacute; Rouge</p>
                             <i class="far fa-heart"></i>
@@ -98,12 +93,10 @@
                     </a>
                 </div>
 
-                <div class="list__card">
+                <div class="listing__card">
                     <a href="delice.html">
-                        <div class="list__img">
-                            <img src="public/img/restaurants/restaurant-le-delice-des-sens.jpg" alt="Restaurant Le d&eacute;lice des sens">
-                        </div>
-                        <div class="list__text">
+                        <img class="listing__img" src="public/img/restaurants/restaurant-le-delice-des-sens.jpg" alt="Restaurant Le d&eacute;lice des sens">
+                        <div class="listing__text">
                             <h3>Le d&eacute;lice des sens</h3>
                             <p>Folie-M&eacute;ricourt</p>
                             <i class="far fa-heart"></i>
@@ -116,7 +109,7 @@
 
         <footer class="footer">
             <h1 class="footer__title">ohmyfood</h1>
-            <ul class="footer__item">
+            <ul>
                 <li class="footer__list">
                     <a href="#">
                         <h4><i class="fas fa-utensils"></i>Proposer un restaurant</h4>
