@@ -122,7 +122,80 @@
     }
 }
 
+.listing
+{
+    height: 122.6rem;
+    padding: 5.3rem 2rem;
+    background: lighten($grey-color, 76%);    
 
+    &__title
+    {
+        padding-bottom: 2.4rem;
+        @include font ($text-font, 2.4rem, 700);    
+    }
+
+    &__card
+    {
+        height: 25.1rem;
+        margin-bottom: 2rem;
+        background-color: $white-color;
+        border-radius: 1.5rem; 
+        overflow: hidden;
+        @include box-lightshadow;
+        position: relative;
+    }
+
+    &__img
+    {
+        height: 69.32%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        position: relative;
+    }
+
+    &__sticker
+    {
+        width: 8rem;
+        height: 3rem;
+        padding: 0.8rem;
+        border-radius: .2rem;
+        background-color: $tertiary-color;
+        @include box-littleshadow; 
+        color: darken($tertiary-color, 41%);
+        @include font ($text-font, 1.4rem, 500);
+        text-align: center;
+        position: absolute;
+        right: 1.2rem;
+        top: 1.3rem;
+    }
+
+    &__text
+    {
+        padding: 1.2rem 1.3rem;
+        position: relative;
+
+        h3
+        {
+            @include font ($text-font, 1.8rem, 700, 1.7);
+        }
+
+        p 
+        {
+            @include font ($text-font, 1.7rem, 300);
+        }
+
+        .fa-heart
+        {
+            font-size: 2.3rem;
+            font-weight: 100;
+            position: absolute;
+            right: 2.4rem;
+            top: 2.1rem;
+        }
+
+    }
+}
 
 
 

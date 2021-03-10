@@ -14,6 +14,11 @@
     -webkit-box-shadow: 0 6px 8px 0 lighten($grey-color, 69%);
     box-shadow: 0 6px 8px 0 lighten($grey-color, 69%);
 }
+@mixin box-littleshadow 
+{
+    -webkit-box-shadow: 0 2px 5px 0 lighten($grey-color, 10%);
+    box-shadow: 0 2px 5px 0 lighten($grey-color, 10%);
+}
 
 //flexbox
 @mixin flex-center 
