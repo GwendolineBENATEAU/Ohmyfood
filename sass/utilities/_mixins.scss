@@ -16,8 +16,8 @@
 }
 @mixin box-littleshadow 
 {
-    -webkit-box-shadow: 0 2px 5px 0 lighten($grey-color, 10%);
-    box-shadow: 0 2px 5px 0 lighten($grey-color, 10%);
+    -webkit-box-shadow: 0 1px 5px 0 lighten($grey-color, 30%);
+    box-shadow: 0 1px 5px 0 lighten($grey-color, 30%);
 }
 
 //flexbox
