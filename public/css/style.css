@@ -23,7 +23,7 @@ ul, li, a {
   text-decoration: none;
   color: inherit; }
   /* line 27, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/base/_base.scss */
-  ul:visited, li:visited, a:visited {
+  ul:visited, ul:hover, li:visited, li:hover, a:visited, a:hover {
     color: inherit; }
 
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_buttons.scss */
@@ -37,7 +37,7 @@ ul, li, a {
   background: -webkit-linear-gradient(top left, #FF79DA, #9356DC);
   background: -o-linear-gradient(top left, #FF79DA, #9356DC);
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  color: white;
+  color: #ffffff;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -51,6 +51,14 @@ ul, li, a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  /* line 14, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_buttons.scss */
+  .btn:visited, .btn:hover {
+    color: #ffffff; }
+  /* line 18, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_buttons.scss */
+  .btn:hover {
+    background: linear-gradient(to bottom right, #ff93e1, #a16be0);
+    -webkit-box-shadow: 0 6px 12px 0 #828282;
+    box-shadow: 0 6px 12px 0 #828282; }
 
 /* line 2, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_favorite.scss */
 input[type="checkbox"] {
@@ -110,9 +118,9 @@ input[type=checkbox]:checked + .fav span {
     animation: circles 1.5s infinite ease,  around 1.5s infinite ease; }
   /* line 30, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_loader.scss */
   .loader__caption {
-    font-family: "Shrikhand", cursive, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1; }
 
 @keyframes loader {
