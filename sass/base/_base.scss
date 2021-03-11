@@ -24,7 +24,7 @@ ul, li, a
     list-style: none;
     text-decoration: none;
     color: inherit;
-    &:visited 
+    &:visited, &:hover
     {
         color: inherit;
     }

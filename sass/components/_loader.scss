@@ -29,7 +29,7 @@
 
     &__caption
     {
-        @include font ($logo-font, 1.8rem, 400);
+        @include font ($text-font, 1.8rem, 300);
     }
 }
 
