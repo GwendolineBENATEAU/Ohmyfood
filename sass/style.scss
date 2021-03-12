@@ -2,11 +2,12 @@
 @import "utilities/mixins";
 
 @import "base/base";
+@import "components/loader";
 @import "components/buttons";
 @import "components/favorite";
-@import "components/loader";
 
 @import "layout/header";
 @import "layout/footer";
 
 @import "pages/home";
+@import "pages/menu";
