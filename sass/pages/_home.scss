@@ -23,7 +23,7 @@
 .discover
 {
     height: 28.7rem;
-    padding: 3.7rem 3rem 5.7rem 3rem;
+    padding: 4rem 3rem 5.7rem 3rem;
     background: lighten($grey-color, 76%);    
     @include flex-column-between;
     text-align: center;
@@ -32,20 +32,25 @@
     {
         padding-left: 0.6rem;
         padding-right: 2.2rem;
-        @include font ($text-font, 2.4rem, 700);
+        @include font ($text-font, 2.4rem, 700, 1.2);
     }
 
-    &__byline
+    &__subtitle
     {
         padding-bottom: 1.8rem;
-        @include font ($text-font, 1.8rem, 300);   
+        @include font ($text-font, 1.8rem, 300, 1.2);   
+    }
+    
+    &__btn
+    {
+        width: 21.8rem;
     }
 }
 
 .manual
 {
     height: 44rem;
-    padding: 4.7rem 2rem;
+    padding: 5rem 2rem;
 
     &__title
     {
@@ -125,7 +130,7 @@
 .listing
 {
     height: 122.6rem;
-    padding: 5.3rem 2rem;
+    padding: 5.5rem 2rem;
     background: lighten($grey-color, 76%);    
 
     &__title
@@ -182,6 +187,13 @@
         {
             @include font ($text-font, 1.7rem, 300);
         }
+    }
+
+    &__fav
+    {
+        position: absolute;
+        right: 4.7rem;
+        bottom: 4rem;
     }
 }
 

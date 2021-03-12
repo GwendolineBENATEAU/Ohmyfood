@@ -1,0 +1,46 @@
+.wallpaper
+{
+    height: 27rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu
+{
+    background: lighten($grey-color, 76%);
+    margin-top: -5rem;
+    border-radius: 4rem 4rem 0 0;
+    position: relative;
+    /*z-index: 1;
+    position: relative;*/
+
+    &__title
+    {
+        padding: 3.9rem 2rem ; 
+        @include font ($logo-font, 2.8rem, 400);
+    }
+
+    &__fav
+    {
+        position: absolute;
+        right: 6rem;
+        top: 3.9rem;
+    }
+
+    &__item
+    {
+        padding-left: 2rem;
+        @include font ($text-font, 1.6rem, 400);
+        text-transform: uppercase;
+    }
+
+    &__divider
+    {
+        margin: 0.5rem 2rem;
+        width: 4rem;
+        height: 0.3rem;
+        background-color: $tertiary-color;
+    }
+
+
+}
