@@ -7,16 +7,15 @@
 
 .menu
 {
+    height: 117rem;
     background: lighten($grey-color, 76%);
     margin-top: -5rem;
     border-radius: 4rem 4rem 0 0;
     position: relative;
-    /*z-index: 1;
-    position: relative;*/
 
     &__title
     {
-        padding: 3.9rem 2rem ; 
+        padding: 3.9rem 2rem .3rem 2rem; 
         @include font ($logo-font, 2.8rem, 400);
     }
 
@@ -30,9 +29,11 @@
     &__item
     {
         padding-left: 2rem;
+        padding-top: 3.7rem;
         @include font ($text-font, 1.6rem, 400);
         text-transform: uppercase;
     }
+
 
     &__divider
     {
@@ -42,5 +43,40 @@
         background-color: $tertiary-color;
     }
 
+    &__list
+    {
+        height: 6.8rem;
+        padding:  1.4rem 1.1rem;
+        margin: 1.4rem;
+        border-radius: 1.5rem;
+        background: $white-color;
+        @include box-lightshadow; 
+        position: relative;
 
+        h3
+        {
+            @include font ($text-font, 1.8rem, 500);
+            padding-bottom: .8rem;
+        }
+
+        p
+        {
+            @include font ($text-font, 1.5rem, 300);   
+        }
+
+        span
+        {
+            @include font ($text-font, 1.6rem, 900);
+            color: $grey-color;
+            position: absolute;
+            right: 1.9rem;
+            bottom: 1.2rem;
+        }
+    }
+
+    &__btn
+    {
+        margin: 4.6rem auto 5.8rem auto;
+        width: 18.6rem;
+    }
 }
