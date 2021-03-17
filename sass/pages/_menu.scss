@@ -7,7 +7,6 @@
 
 .menu
 {
-    height: 117rem;
     background: lighten($grey-color, 76%);
     margin-top: -5rem;
     border-radius: 4rem 4rem 0 0;
@@ -29,7 +28,7 @@
     &__item
     {
         padding-left: 2rem;
-        padding-top: 3.7rem;
+        padding-top: 3.5rem;
         @include font ($text-font, 1.6rem, 400);
         text-transform: uppercase;
     }
@@ -45,7 +44,7 @@
 
     &__list
     {
-        height: 6.8rem;
+        height: auto;
         padding:  1.4rem 1.1rem;
         margin: 1.4rem;
         border-radius: 1.5rem;
@@ -55,6 +54,7 @@
 
         h3
         {
+            width: 82%;
             @include font ($text-font, 1.8rem, 500);
             padding-bottom: .8rem;
         }
@@ -76,7 +76,10 @@
 
     &__btn
     {
-        margin: 4.6rem auto 5.8rem auto;
+        padding-top: 3.7rem;
+        padding-bottom: 7.2rem;
+        margin-left: auto;
+        margin-right: auto;
         width: 18.6rem;
     }
 }
