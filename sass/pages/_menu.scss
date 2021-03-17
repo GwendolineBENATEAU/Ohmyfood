@@ -2,6 +2,7 @@
 {
     height: 27rem;
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -51,6 +52,7 @@
         background: $white-color;
         @include box-lightshadow; 
         position: relative;
+        @include animation-slide-up;
 
         h3
         {
