@@ -147,11 +147,23 @@ input[type=checkbox]:checked + .fav span {
   -o-transition: all 3s ease-out;
   transition: all 3s ease-out; }
 
-@keyframes sliderUp {
+@-webkit-keyframes sliderUp {
   from {
+    -webkit-transform: translateY(10rem);
     transform: translateY(10rem);
     opacity: 0; }
   to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes sliderUp {
+  from {
+    -webkit-transform: translateY(10rem);
+    transform: translateY(10rem);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1; } }
 
@@ -476,15 +488,19 @@ input[type=checkbox]:checked + .fav span {
     position: relative; }
     /* line 4, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
     .menu__list:nth-child(1) {
+      -webkit-animation: sliderUp 1.5s ease-in-out .1s;
       animation: sliderUp 1.5s ease-in-out .1s; }
-    /* line 8, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
+    /* line 9, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
     .menu__list:nth-child(2) {
+      -webkit-animation: sliderUp 1.7s ease-in-out .1s;
       animation: sliderUp 1.7s ease-in-out .1s; }
-    /* line 12, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
+    /* line 14, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
     .menu__list:nth-child(3) {
+      -webkit-animation: sliderUp 1.9s ease-in-out .1s;
       animation: sliderUp 1.9s ease-in-out .1s; }
-    /* line 16, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
+    /* line 19, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_sliders.scss */
     .menu__list:nth-child(4) {
+      -webkit-animation: sliderUp 2.1s ease-in-out .1s;
       animation: sliderUp 2.1s ease-in-out .1s; }
     /* line 57, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/pages/_menu.scss */
     .menu__list h3 {
