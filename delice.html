@@ -12,16 +12,89 @@
         <!-- Liaison vers la bibliothèque externe d'icônes FontAwesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
-    <body>
+     <body>
 
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         </header>
-        
+
         <main>
-            
+            <img class="wallpaper" src="public/img/restaurants/restaurant-le-delice-des-sens.jpg" alt="Restaurant La palette du go&ucirc;t">
+
+            <section class="menu">
+                <h1 class="menu__title">Le d&eacute;lice des sens</h1>
+                <div class="menu__fav">
+                    <input id="favorite-1" name="favorite" type="checkbox" />
+                    <label class="fav" for="favorite-1">
+                        <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                        <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                    </label>
+                </div>
+                <h2 class="menu__item">Entr&eacute;es</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Tartare de thon</h3>
+                        <p>Assaisonn&eacute; au yuzu</p>
+                        <span>25€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Bouch&eacute;e de homard croustillant</h3>
+                        <p>Et sa farandole de petits l&eacute;gumes</p>
+                        <span>35€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Velout&eacute; de c&egrave;pes</h3>
+                        <p>Aux truffes</p>
+                        <span>20€</span>
+                    </li>
+                </ul>
+                <h2 class="menu__item">Plats</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Poulet r&ocirc;ti aux herbes de Provence</h3>
+                        <p>Et sa cr&egrave;me de truffe</p>
+                        <span>40€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Langouste r&ocirc;tie</h3>
+                        <p>Et ses l&eacute;gumes de saison</p>
+                        <span>35€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>C&ocirc;te de boeuf Angus</h3>
+                        <p>Et sa pur&eacute;e de panais</p>
+                        <span>44€</span>
+                    </li>
+                </ul>
+                <h2 class="menu__item">Desserts</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Farandole de desserts</h3>
+                        <p>Du chef</p>
+                        <span>18€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Cr&egrave;me brul&eacute;e </h3>
+                        <p>Revisit&eacute;e</p>
+                        <span>22€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Tiramisu</h3>
+                        <p>&Agrave; la noisette</p>
+                        <span>23€</span>
+                    </li>
+                </ul>
+                <div class="menu__btn">
+                    <a class="btn">Commander</a>
+                </div>
+
+            </section>
         </main>
-        
+
         <footer class="footer">
             <h3 class="footer__title">ohmyfood</h3>
             <ul class="footer__item">

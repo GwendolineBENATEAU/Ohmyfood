@@ -12,16 +12,94 @@
         <!-- Liaison vers la bibliothèque externe d'icônes FontAwesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
-    <body>
+     <body>
 
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         </header>
-        
+
         <main>
-            
+            <img class="wallpaper" src="public/img/restaurants/restaurant-la-note-enchantee.jpg" alt="Restaurant La palette du go&ucirc;t">
+
+            <section class="menu">
+                <h1 class="menu__title">La note enchant&eacute;e</h1>
+                <div class="menu__fav">
+                    <input id="favorite-1" name="favorite" type="checkbox" />
+                    <label class="fav" for="favorite-1">
+                        <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                        <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                    </label>
+                </div>
+                <h2 class="menu__item">Entr&eacute;es</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Ravioles de foie gras</h3>
+                        <p>Accompagn&eacute;s de leur cr&egrave;me &agrave; la truffe</p>
+                        <span>25€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Caviar osci&egrave;tre</h3>
+                        <p>Sur blini &agrave; la farine de bl&eacute; noir</p>
+                        <span>35€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Homard et espuma de potiron</h3>
+                        <p>Marin&eacute; aux zestes d'orange</p>
+                        <span>20€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Foie gras de canard cuit entier</h3>
+                        <p>Confiture de figue et pain toast&eacute;</p>
+                        <span>35€</span>
+                    </li>
+                </ul>
+                <h2 class="menu__item">Plats</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Noix de coquilles Saint-Jacques</h3>
+                        <p>Sur lit de pur&eacute;e de c&eacute;leri-rave</p>
+                        <span>40€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Langoustine po&ecirc;l&eacute;e</h3>
+                        <p>Pur&eacute;e de patate douce</p>
+                        <span>35€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Mijot&eacute; de queue de boeuf </h3>
+                        <p>Et riz sauvage aux zestes de citron</p>
+                        <span>44€</span>
+                    </li>
+                </ul>
+                <h2 class="menu__item">Desserts</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Macaron noisette et chocolat</h3>
+                        <p>Glace au caramel brun et sel de Gu&eacute;rande</p>
+                        <span>18€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Baba au rhum revisit&eacute;</h3>
+                        <p>Avec son coulis de citron</p>
+                        <span>22€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Tarte au citron meringu&eacute;e</h3>
+                        <p>D&eacute;structur&eacute;e</p>
+                        <span>23€</span>
+                    </li>
+                </ul>
+                <div class="menu__btn">
+                    <a class="btn">Commander</a>
+                </div>
+
+            </section>
         </main>
-        
+
         <footer class="footer">
             <h3 class="footer__title">ohmyfood</h3>
             <ul class="footer__item">

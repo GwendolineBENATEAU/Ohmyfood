@@ -12,16 +12,89 @@
         <!-- Liaison vers la bibliothèque externe d'icônes FontAwesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
-    <body>
+     <body>
 
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         </header>
-        
+
         <main>
-            
+            <img class="wallpaper" src="public/img/restaurants/restaurant-a-la-francaise.jpg" alt="Restaurant La palette du go&ucirc;t">
+
+            <section class="menu">
+                <h1 class="menu__title">&Aacute; la fran&ccedil;aise</h1>
+                <div class="menu__fav">
+                    <input id="favorite-1" name="favorite" type="checkbox" />
+                    <label class="fav" for="favorite-1">
+                        <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
+                        <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                    </label>
+                </div>
+                <h2 class="menu__item">Entr&eacute;es</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Tartare de poulpe acidul&eacute;</h3>
+                        <p>Aux zestes d'orange</p>
+                        <span>25€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Velout&eacute; de l&eacute;gumes d'antan</h3>
+                        <p>Carotte, panais, topinambour</p>
+                        <span>35€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Soupe &agrave; l'oignon</h3>
+                        <p>Revisit&eacute;e</p>
+                        <span>20€</span>
+                    </li>
+                </ul>
+                <h2 class="menu__item">Plats</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>Coquilles Saint-Jacques</h3>
+                        <p>Accompagn&eacute;es d'une pur&eacute;e de panais</p>
+                        <span>40€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Magret de canard</h3>
+                        <p>Et parmentier de pommes de terre</p>
+                        <span>35€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Pigeonneau d’Ille-et-Vilaine</h3>
+                        <p>Sur son lit de gnocchis aux l&eacute;gumes</p>
+                        <span>44€</span>
+                    </li>
+                </ul>
+                <h2 class="menu__item">Desserts</h2>
+                <div class="menu__divider"></div>
+                <ul>
+                    <li class="menu__list">
+                        <h3>P&eacute;tales de violettes glac&eacute;s</h3>
+                        <p>Et pur&eacute;e de noisettes</p>
+                        <span>18€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Fondant au chocolat</h3>
+                        <p>Revisit&eacute;</p>
+                        <span>22€</span>
+                    </li>
+                    <li class="menu__list">
+                        <h3>Millefeuille croustillant</h3>
+                        <p>Myrtilles et p&acirc;te d’amande</p>
+                        <span>23€</span>
+                    </li>
+                </ul>
+                <div class="menu__btn">
+                    <a class="btn">Commander</a>
+                </div>
+
+            </section>
         </main>
-        
+
         <footer class="footer">
             <h3 class="footer__title">ohmyfood</h3>
             <ul class="footer__item">
