@@ -10,10 +10,13 @@
 
 html, body
 {
+    width: 100%;
+    min-width: 32rem;
+    max-width: 102.4rem;
+    margin: 0 auto;
+
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 100%;
-    margin: auto;
     background-color: $white-color;
     font-size: $base-fontsize;
     color: $black-color;
@@ -28,4 +31,16 @@ ul, li, a
     {
         color: inherit;
     }
+}
+
+input[type="checkbox"] 
+{
+    visibility: hidden;
+}
+
+input[type="submit"] 
+{
+    cursor: pointer;
+    border-style: none;
+    width: inherit;
 }

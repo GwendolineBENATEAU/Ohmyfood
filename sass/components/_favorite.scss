@@ -1,15 +1,10 @@
-//favorite input
-input[type="checkbox"] 
-{
-    visibility: hidden;
-}
-
+//bouton j'aime
 .fav
 {
     cursor: pointer;
     font-size: 2.3rem;
     position: absolute;
-    
+
     & .fav--solid
     {
         opacity: 0;
