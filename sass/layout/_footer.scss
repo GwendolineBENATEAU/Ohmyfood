@@ -4,12 +4,31 @@
     padding: 2.5rem;
     background-color: $grey-color;
     color: $white-color;
+    @include breakpoint
+    {
+        text-align: center;
+        padding: 4rem;
+    }
 
     &__title
     {
         padding-bottom: 1.9rem;
         @include font ($logo-font, 1.8rem, 400);
+        @include breakpoint
+        {
+            padding-bottom: 6rem;
+            @include font ($logo-font, 3rem, 400);
+        }
     }
+
+    &__item
+    {
+        @include breakpoint
+        {
+            @include flex-between;
+        }
+    }
+
 
     &__list h4
     {

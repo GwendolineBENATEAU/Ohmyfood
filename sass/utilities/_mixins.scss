@@ -38,8 +38,16 @@
     -ms-flex-pack: center;
     justify-content: center;
 }
-
-@mixin flex-column-between 
+@mixin flex-between
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@mixin flex-column
 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -51,10 +59,27 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+@mixin flex-column-between 
+{
+    @include flex-column;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+@mixin flex-wrap-around
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+
+
 
 //font styling
 @mixin font($family, $size, $weight, $line-height:1) 
@@ -63,4 +88,12 @@
     font-size: $size;
     font-weight: $weight;
     line-height: $line-height;
+}
+
+//breakpoints
+@mixin breakpoint {
+    @media only screen and (min-width: 768px)
+    {
+        @content;
+    }
 }

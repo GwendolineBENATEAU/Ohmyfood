@@ -40,7 +40,7 @@
         padding-bottom: 1.8rem;
         @include font ($text-font, 1.8rem, 300, 1.2);   
     }
-    
+
     &__btn
     {
         width: 21.8rem;
@@ -51,11 +51,27 @@
 {
     height: 44rem;
     padding: 5rem 2rem;
+    @include breakpoint
+    {
+        padding: 5rem 4rem;
+    }
 
     &__title
     {
         padding-bottom: 3.3rem;
-        @include font ($text-font, 2.4rem, 700);    
+        @include font ($text-font, 2.4rem, 700); 
+        @include breakpoint
+        {
+            text-align: center;
+        }
+    }
+
+    &__item
+    {
+        @include breakpoint
+        {
+            @include flex-column-between;
+        }
     }
 
     &__list
@@ -80,6 +96,11 @@
             {
                 color: $primary-color;
             }
+        }
+
+        @include breakpoint
+        {
+            width: 33rem;
         }
     }
 
@@ -131,12 +152,29 @@
 {
     height: 122.6rem;
     padding: 5.5rem 2rem;
-    background: lighten($grey-color, 76%);    
+    background: lighten($grey-color, 76%);   
+    @include breakpoint
+    {
+        padding: 5.5rem 4rem;
+        height: auto;
+    }
 
     &__title
     {
         padding-bottom: 2.4rem;
-        @include font ($text-font, 2.4rem, 700);    
+        @include font ($text-font, 2.4rem, 700); 
+        @include breakpoint
+        {
+            text-align: center;
+        }
+    }
+
+    &__container
+    {
+        @include breakpoint
+        {
+            @include flex-wrap-around;
+        }
     }
 
     &__card
@@ -148,6 +186,10 @@
         overflow: hidden;
         @include box-lightshadow;
         position: relative;
+        @include breakpoint
+        {
+            width: 48.7%;
+        }
     }
 
     &__img
@@ -196,24 +238,3 @@
         bottom: 4rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
