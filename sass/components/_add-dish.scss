@@ -1,0 +1,30 @@
+//appartion d'une coche lors de l'ajout d'un plat
+.menu
+{
+    &__validated 
+    {
+        width: 83px;
+        font-size: 2rem;
+        background-color: #99e2d0;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: -83px;
+        transition-duration: 500ms;
+    }
+
+    &__input:checked ~ .menu__validated
+    {
+        margin-left: 83px;
+        //transform: scale(0);
+        transform: translateX(-83px);
+        transition-duration: 500ms;
+    }
+
+    &__input:checked ~ .menu__validated .fa-check-circle
+    {
+        transform: rotate(360deg);
+        transition-duration: 500ms;
+    }
+}

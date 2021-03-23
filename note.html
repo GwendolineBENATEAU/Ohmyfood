@@ -12,7 +12,7 @@
         <!-- Liaison vers la bibliothèque externe d'icônes FontAwesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
-     <body>
+    <body>
 
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
@@ -31,68 +31,150 @@
                         <span class="fav-icon fav-icon--empty"><i class="far fa-heart"></i></span>
                     </label>
                 </div>
+
                 <h2 class="menu__item">Entr&eacute;es</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <h3>Ravioles de foie gras</h3>
-                        <p>Accompagn&eacute;s de leur cr&egrave;me &agrave; la truffe</p>
-                        <span>25€</span>
+                        <input class="menu__input" id="dish-NoteE1" name="dish-NoteE1" type="checkbox">
+                        <label class="menu__text" for="dish-NoteE1">
+                            <strong>Ravioles de foie gras</strong>
+                            <span>Accompagn&eacute;s de leur cr&egrave;me &agrave; la truffe</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>25€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Caviar osci&egrave;tre</h3>
-                        <p>Sur blini &agrave; la farine de bl&eacute; noir</p>
-                        <span>35€</span>
+                        <input class="menu__input" id="dish-NoteE2" name="dish-NoteE2" type="checkbox">
+                        <label class="menu__text" for="dish-NoteE2">
+                            <strong>Caviar osci&egrave;tre</strong>
+                            <span>Sur blini &agrave; la farine de bl&eacute; noir</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>35€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Homard et espuma de potiron</h3>
-                        <p>Marin&eacute; aux zestes d'orange</p>
-                        <span>20€</span>
+                        <input class="menu__input" id="dish-NoteE3" name="dish-NoteE3" type="checkbox">
+                        <label class="menu__text" for="dish-NoteE3">
+                            <strong>Homard et espuma de potiron</strong>
+                            <span>Marin&eacute; aux zestes d'orange</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>20€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Foie gras de canard cuit entier</h3>
-                        <p>Confiture de figue et pain toast&eacute;</p>
-                        <span>35€</span>
+                        <input class="menu__input" id="dish-NoteE4" name="dish-NoteE4" type="checkbox">
+                        <label class="menu__text" for="dish-NoteE4">
+                            <strong>Foie gras de canard cuit entier</strong>
+                            <span>Confiture de figue et pain toast&eacute;</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>35€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
                 <h2 class="menu__item">Plats</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <h3>Noix de coquilles Saint-Jacques</h3>
-                        <p>Sur lit de pur&eacute;e de c&eacute;leri-rave</p>
-                        <span>40€</span>
+                        <input class="menu__input" id="dish-NoteP1" name="dish-NoteP1" type="checkbox">
+                        <label class="menu__text" for="dish-NoteP1">
+                            <strong>Noix de coquilles Saint-Jacques</strong>
+                            <span>Sur lit de pur&eacute;e de c&eacute;leri-rave</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>40€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Langoustine po&ecirc;l&eacute;e</h3>
-                        <p>Pur&eacute;e de patate douce</p>
-                        <span>35€</span>
+                        <input class="menu__input" id="dish-NoteP2" name="dish-NoteP2" type="checkbox">
+                        <label class="menu__text" for="dish-NoteP2">
+                            <strong>Langoustine po&ecirc;l&eacute;e</strong>
+                            <span>Pur&eacute;e de patate douce</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>35€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Mijot&eacute; de queue de boeuf </h3>
-                        <p>Et riz sauvage aux zestes de citron</p>
-                        <span>44€</span>
+                        <input class="menu__input" id="dish-NoteP3" name="dish-NoteP3" type="checkbox">
+                        <label class="menu__text" for="dish-NoteP3">
+                            <strong>Mijot&eacute; de queue de boeuf</strong>
+                            <span>Et riz sauvage aux zestes de citron</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>44€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
                 <h2 class="menu__item">Desserts</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <h3>Macaron noisette et chocolat</h3>
-                        <p>Glace au caramel brun et sel de Gu&eacute;rande</p>
-                        <span>18€</span>
+                        <input class="menu__input" id="dish-NoteD1" name="dish-NoteD1" type="checkbox">
+                        <label class="menu__text" for="dish-NoteD1">
+                            <strong>Macaron noisette et chocolat</strong>
+                            <span>Glace au caramel brun et sel de Gu&eacute;rande</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>18€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Baba au rhum revisit&eacute;</h3>
-                        <p>Avec son coulis de citron</p>
-                        <span>22€</span>
+                        <input class="menu__input" id="dish-NoteD2" name="dish-NoteD2" type="checkbox">
+                        <label class="menu__text" for="dish-NoteD2">
+                            <strong>Baba au rhum revisit&eacute;</strong>
+                            <span>Avec son coulis de citron</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>22€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Tarte au citron meringu&eacute;e</h3>
-                        <p>D&eacute;structur&eacute;e</p>
-                        <span>23€</span>
+                        <input class="menu__input" id="dish-NoteD3" name="dish-NoteD3" type="checkbox">
+                        <label class="menu__text" for="dish-NoteD3">
+                            <strong>Tarte au citron meringu&eacute;e</strong>
+                            <span>D&eacute;structur&eacute;e</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>23€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
+
                 <div class="menu__btn">
                     <a class="btn">Commander</a>
                 </div>

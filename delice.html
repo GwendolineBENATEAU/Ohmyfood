@@ -12,7 +12,7 @@
         <!-- Liaison vers la bibliothèque externe d'icônes FontAwesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
-     <body>
+    <body>
 
         <header class="header">
             <img class="header__logo" src="public/img/ohmyfood.svg" alt="Ohmyfood logo">
@@ -31,67 +31,140 @@
                         <span class="fav-icon fav-icon--empty"><i class="far fa-heart"></i></span>
                     </label>
                 </div>
+
                 <h2 class="menu__item">Entr&eacute;es</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <h3>Tartare de thon</h3>
-                        <p>Assaisonn&eacute; au yuzu</p>
-                        <span>25€</span>
+                        <input class="menu__input" id="dish-DeliceE1" name="dish-DeliceE1" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceE1">
+                            <strong>Tartare de thon</strong>
+                            <span>Assaisonn&eacute; au yuzu</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>25€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Bouch&eacute;e de homard croustillant</h3>
-                        <p>Et sa farandole de petits l&eacute;gumes</p>
-                        <span>35€</span>
+                        <input class="menu__input" id="dish-DeliceE2" name="dish-DeliceE2" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceE2">
+                            <strong>Bouch&eacute;e de homard croustillant</strong>
+                            <span>Et sa farandole de petits l&eacute;gumes</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>35€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Velout&eacute; de c&egrave;pes</h3>
-                        <p>Aux truffes</p>
-                        <span>20€</span>
+                        <input class="menu__input" id="dish-DeliceE3" name="dish-DeliceE3" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceE3">
+                            <strong>Velout&eacute; de c&egrave;pes</strong>
+                            <span>Aux truffes</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>20€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
                 <h2 class="menu__item">Plats</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <h3>Poulet r&ocirc;ti aux herbes de Provence</h3>
-                        <p>Et sa cr&egrave;me de truffe</p>
-                        <span>40€</span>
+                        <input class="menu__input" id="dish-DeliceP1" name="dish-DeliceP1" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceP1">
+                            <strong>Poulet r&ocirc;ti aux herbes de <br>Provence</strong>
+                            <span>Et sa cr&egrave;me de truffe</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>40€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Langouste r&ocirc;tie</h3>
-                        <p>Et ses l&eacute;gumes de saison</p>
-                        <span>35€</span>
+                        <input class="menu__input" id="dish-DeliceP2" name="dish-DeliceP2" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceP2">
+                            <strong>Langouste r&ocirc;tie</strong>
+                            <span>Et ses l&eacute;gumes de saison</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>35€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>C&ocirc;te de boeuf Angus</h3>
-                        <p>Et sa pur&eacute;e de panais</p>
-                        <span>44€</span>
+                        <input class="menu__input" id="dish-DeliceP3" name="dish-DeliceP3" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceP3">
+                            <strong>C&ocirc;te de boeuf Angus</strong>
+                            <span>Et sa pur&eacute;e de panais</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>44€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
                 <h2 class="menu__item">Desserts</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <h3>Farandole de desserts</h3>
-                        <p>Du chef</p>
-                        <span>18€</span>
+                        <input class="menu__input" id="dish-DeliceD1" name="dish-DeliceD1" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceD1">
+                            <strong>Farandole de desserts</strong>
+                            <span>Du chef</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>18€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Cr&egrave;me brul&eacute;e </h3>
-                        <p>Revisit&eacute;e</p>
-                        <span>22€</span>
+                        <input class="menu__input" id="dish-DeliceD2" name="dish-DeliceD2" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceD2">
+                            <strong>Cr&egrave;me brul&eacute;e</strong>
+                            <span>Revisit&eacute;e</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>22€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <h3>Tiramisu</h3>
-                        <p>&Agrave; la noisette</p>
-                        <span>23€</span>
+                        <input class="menu__input" id="dish-DeliceD3" name="dish-DeliceD3" type="checkbox">
+                        <label class="menu__text" for="dish-DeliceD3">
+                            <strong>Tiramisu</strong>
+                            <span>&Agrave; la noisette</span>
+                        </label>
+                        <div class="menu__price">
+                            <span>23€</span>  
+                        </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
+
                 <div class="menu__btn">
                     <a class="btn">Commander</a>
                 </div>
-
             </section>
         </main>
 
