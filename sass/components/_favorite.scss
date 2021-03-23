@@ -1,22 +1,22 @@
 //bouton j'aime
-.fav
+.fav-icon
 {
     cursor: pointer;
     font-size: 2.3rem;
     position: absolute;
 
-    & .fav--solid
+    & .fav-icon--solid
     {
         opacity: 0;
     }
 
-    & .fav--empty
+    & .fav-icon--empty
     {
         margin-top: -0.05rem;
     }
 }
 
-input[type=checkbox]:checked + .fav span 
+.fav-input:checked + .fav-icon span
 {
     background: -webkit-gradient(linear, right top, left bottom, from($primary-color), to($secondary-color));
     background: -webkit-linear-gradient(top right, $primary-color, $secondary-color);

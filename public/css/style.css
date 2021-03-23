@@ -185,19 +185,19 @@ input[type="submit"] {
     box-shadow: 0 6px 12px 0 #828282; }
 
 /* line 2, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_favorite.scss */
-.fav {
+.fav-icon {
   cursor: pointer;
   font-size: 2.3rem;
   position: absolute; }
   /* line 8, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_favorite.scss */
-  .fav .fav--solid {
+  .fav-icon .fav-icon--solid {
     opacity: 0; }
   /* line 13, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_favorite.scss */
-  .fav .fav--empty {
+  .fav-icon .fav-icon--empty {
     margin-top: -0.05rem; }
 
 /* line 19, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_favorite.scss */
-input[type=checkbox]:checked + .fav span {
+.fav-input:checked + .fav-icon span {
   background: -webkit-gradient(linear, right top, left bottom, from(#9356DC), to(#FF79DA));
   background: -webkit-linear-gradient(top right, #9356DC, #FF79DA);
   background: -o-linear-gradient(top right, #9356DC, #FF79DA);
