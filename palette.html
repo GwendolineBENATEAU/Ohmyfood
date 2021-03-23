@@ -25,107 +25,145 @@
             <section class="menu">
                 <h1 class="menu__title">La palette du go&ucirc;t</h1>
                 <div class="menu__fav">
-                    <input id="favorite-1" name="favorite" type="checkbox" />
-                    <label class="fav" for="favorite-1">
-                        <span class="fav fav--solid"><i class="fas fa-heart"></i></span>
-                        <span class="fav fav--empty"><i class="far fa-heart"></i></span>
+                    <input class="fav-input" id="fav-palette" name="fav-palette" type="checkbox" />
+                    <label class="fav-icon" for="fav-palette">
+                        <span class="fav-icon fav-icon--solid"><i class="fas fa-heart"></i></span>
+                        <span class="fav-icon fav-icon--empty"><i class="far fa-heart"></i></span>
                     </label>
                 </div>
+
                 <h2 class="menu__item">Entr&eacute;es</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Fricass&eacute;e d'escargot</h3>
-                            <p>Au piment d'Espelette</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteE1" name="dish-PaletteE1" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteE1">
+                            <strong>Fricass&eacute;e d'escargot</strong>
+                            <span>Au piment d'Espelette</span>
+                        </label>
                         <div class="menu__price">
-                            <span>25€</span>
+                            <span>25€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Foie gras de canard mi-cuit</h3>
-                            <p>Et ses copeaux de truffe noire</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteE2" name="dish-PaletteE2" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteE2">
+                            <strong>Foie gras de canard mi-cuit</strong>
+                            <span>Et ses copeaux de truffe noire</span>
+                        </label>
                         <div class="menu__price">
-                            <span>35€</span>
+                            <span>35€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Oeuf au plat</h3>
-                            <p>Assaisonn&eacute; &agrave; la truffe sur lit de caviar</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteE3" name="dish-PaletteE3" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteE3">
+                            <strong>Oeuf au plat</strong>
+                            <span>Assaisonn&eacute; &agrave; la truffe sur lit de caviar</span>
+                        </label>
                         <div class="menu__price">
-                            <span>20€</span>
+                            <span>20€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
                 <h2 class="menu__item">Plats</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Filet de boeuf aux herbes</h3>
-                            <p>Accompagn&eacute; de sa ribambelle de l&eacute;gumes</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteP1" name="dish-PaletteP1" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteP1">
+                            <strong>Filet de boeuf aux herbes</strong>
+                            <span>Accompagn&eacute; de sa ribambelle de l&eacute;gumes</span>
+                        </label>
                         <div class="menu__price">
-                            <span>40€</span>
+                            <span>40€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Parmentier de queue de boeuf</h3>
-                            <p>&Agrave; la truffe noire sur sa pur&eacute;e de panais</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteP2" name="dish-PaletteP2" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteP2">
+                            <strong>Parmentier de queue de boeuf</strong>
+                            <span>&Agrave; la truffe noire sur sa pur&eacute;e de panais</span>
+                        </label>
                         <div class="menu__price">
-                            <span>35€</span>
+                            <span>35€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Filet de turbot</h3>
-                            <p>Aux agrumes</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteP3" name="dish-PaletteP3" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteP3">
+                            <strong>Filet de turbot</strong>
+                            <span>Aux agrumes</span>
+                        </label>
                         <div class="menu__price">
-                            <span>44€</span>
+                            <span>44€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
                 <h2 class="menu__item">Desserts</h2>
                 <div class="menu__divider"></div>
                 <ul>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Paris-Brest</h3>
-                            <p>Revisit&eacute;</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteD1" name="dish-PaletteD1" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteD1">
+                            <strong>Paris-Brest</strong>
+                            <span>Revisit&eacute;</span>
+                        </label>
                         <div class="menu__price">
-                            <span>18€</span>
+                            <span>18€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Macaron au chocolat d'exception</h3>
-                            <p>Et glace &agrave; la vanille de Madagascar</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteD2" name="dish-PaletteD2" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteD2">
+                            <strong>Macaron au chocolat d'exception</strong>
+                            <span>Et glace &agrave; la vanille de Madagascar</span>
+                        </label>
                         <div class="menu__price">
-                            <span>22€</span>
+                            <span>22€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                     <li class="menu__list">
-                        <div class="menu__text">
-                            <h3>Mousse au chocolat</h3>
-                            <p>Au piment d'Espelette et &agrave; la truffe noire</p>
-                        </div>
+                        <input class="menu__input" id="dish-PaletteD3" name="dish-PaletteD3" type="checkbox">
+                        <label class="menu__text" for="dish-PaletteD3">
+                            <strong>Mousse au chocolat</strong>
+                            <span>Au piment d'Espelette et &agrave; la truffe noire</span>
+                        </label>
                         <div class="menu__price">
-                            <span>23€</span>
+                            <span>23€</span>  
                         </div>
+                        <div class="menu__validated">
+                            <i class="fas fa-check-circle"></i>
+                        </div> 
                     </li>
                 </ul>
+
                 <div class="menu__btn">
-                     <input class="btn" type="submit" value="Commander">
+                    <input class="btn" type="submit" value="Commander">
                 </div>
             </section>
         </main>

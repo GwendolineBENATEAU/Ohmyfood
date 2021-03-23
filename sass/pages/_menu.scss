@@ -59,30 +59,34 @@
     {
         height: auto;
         margin: 1.4rem;
-        border-radius: 1.5rem;
         background: $white-color;
-        @include box-lightshadow; 
-        @include animation-slide-up;
-
+        border-radius: 1.5rem;
+        @include box-lightshadow;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between; 
-        -webkit-box-align: stretch; 
-        -ms-flex-align: stretch; 
-        align-items: stretch;
+        overflow: hidden;
+        cursor: pointer;
+        @include animation-slide-up;
     }
 
     &__text
     {
-        width: 82%;
-        min-width: 2rem;
-        padding: 1.4rem 1.1rem;
-
-        h3
-        {
+        width: 100%;
+        margin-left: -1.5rem;
+        padding: 1.5rem 1.3rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        overflow: hidden;
+        cursor: pointer;
+        
+        strong 
+        { 
             padding-bottom: .8rem;
             @include font ($text-font, 1.8rem, 500);
             -o-text-overflow: ellipsis;
@@ -90,9 +94,8 @@
             overflow: hidden;
             white-space: nowrap;
         }
-
-        p
-        {
+        span 
+        { 
             @include font ($text-font, 1.5rem, 300);
             -o-text-overflow: ellipsis;
             text-overflow: ellipsis;
@@ -103,17 +106,16 @@
 
     &__price
     {
-
-        padding: 1.4rem;
+        width: 7rem;
         @include font ($text-font, 1.6rem, 900);
         color: $grey-color;
-
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: end;
         -ms-flex-align: end;
         align-items: flex-end;
+        padding-bottom: 1.5rem;
     }
 
     &__btn
