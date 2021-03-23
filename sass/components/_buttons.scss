@@ -17,6 +17,9 @@
     }
     &:hover
     {
+        background: -webkit-gradient(linear, left top, right bottom, from(lighten($secondary-color, 5%)), to(lighten($primary-color, 5%)));
+        background: -webkit-linear-gradient(top left, lighten($secondary-color, 5%), lighten($primary-color, 5%));
+        background: -o-linear-gradient(top left, lighten($secondary-color, 5%), lighten($primary-color, 5%));
         background: linear-gradient(to bottom right, lighten($secondary-color, 5%), lighten($primary-color, 5%));
         @include box-bigshadow;
     }

@@ -3,28 +3,36 @@
 {
     &__validated 
     {
-        width: 83px;
+        width: 8.3rem;
         font-size: 2rem;
-        background-color: #99e2d0;
+        background-color: $tertiary-color;
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: -83px;
+        @include flex-center;
+        margin-right: -8.3rem;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
         transition-duration: 500ms;
     }
 
     &__input:checked ~ .menu__validated
     {
-        margin-left: 83px;
+        margin-left: 8.3rem;
         //transform: scale(0);
-        transform: translateX(-83px);
+        -webkit-transform: translateX(-8.3rem);
+        -ms-transform: translateX(-8.3rem);
+        transform: translateX(-8.3rem);
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
         transition-duration: 500ms;
     }
 
     &__input:checked ~ .menu__validated .fa-check-circle
     {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
         transform: rotate(360deg);
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
         transition-duration: 500ms;
     }
 }
