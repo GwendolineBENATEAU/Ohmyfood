@@ -5,6 +5,8 @@
     width: 100%;
     position: fixed;
     z-index: 10;
+    left: 0;
+    right: 0;
     background-color: $white-color;
     @include flex-column; 
     -webkit-animation: loader 3s 3s both; 
