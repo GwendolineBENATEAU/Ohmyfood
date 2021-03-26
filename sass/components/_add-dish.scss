@@ -9,21 +9,20 @@
         color: white;
         @include flex-center;
         margin-right: -8.3rem;
-        -webkit-transition-duration: 500ms;
-        -o-transition-duration: 500ms;
-        transition-duration: 500ms;
+        -webkit-transition-duration: 600ms;
+        -o-transition-duration: 600ms;
+        transition-duration: 600ms;
     }
 
     &__input:checked ~ .menu__validated
     {
         margin-left: 8.3rem;
-        //transform: scale(0);
         -webkit-transform: translateX(-8.3rem);
         -ms-transform: translateX(-8.3rem);
         transform: translateX(-8.3rem);
-        -webkit-transition-duration: 500ms;
-        -o-transition-duration: 500ms;
-        transition-duration: 500ms;
+        -webkit-transition-duration: 600ms;
+        -o-transition-duration: 600ms;
+        transition-duration: 600ms;
     }
 
     &__input:checked ~ .menu__validated .fa-check-circle
@@ -31,8 +30,8 @@
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
         transform: rotate(360deg);
-        -webkit-transition-duration: 500ms;
-        -o-transition-duration: 500ms;
-        transition-duration: 500ms;
+        -webkit-transition-duration: 600ms;
+        -o-transition-duration: 600ms;
+        transition-duration: 600ms;
     }
 }

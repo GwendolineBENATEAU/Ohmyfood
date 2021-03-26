@@ -43,9 +43,7 @@ input[type="submit"] {
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 1000;
-  right: 0;
-  left: 0;
+  z-index: 10;
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,22 +57,17 @@ input[type="submit"] {
   align-items: center;
   -webkit-animation: loader 3s 3s both;
   animation: loader 3s 3s both; }
-  /* line 15, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_loader.scss */
+  /* line 13, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_loader.scss */
   .loader__spinner {
     margin: 20rem auto;
-    color: #9356DC;
-    font-size: 10rem;
     width: 1em;
     height: 1em;
     border-radius: 50%;
-    text-indent: -9999em;
-    overflow: hidden;
-    position: relative;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+    color: #9356DC;
+    font-size: 10rem;
     -webkit-animation: circles 1.5s infinite ease,  around 1.5s infinite ease;
     animation: circles 1.5s infinite ease,  around 1.5s infinite ease; }
-  /* line 36, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_loader.scss */
+  /* line 29, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_loader.scss */
   .loader__caption {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 1.6rem;
@@ -249,9 +242,9 @@ input[type="submit"] {
   -ms-flex-pack: center;
   justify-content: center;
   margin-right: -8.3rem;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms; }
+  -webkit-transition-duration: 600ms;
+  -o-transition-duration: 600ms;
+  transition-duration: 600ms; }
 
 /* line 17, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_add-dish.scss */
 .menu__input:checked ~ .menu__validated {
@@ -259,18 +252,18 @@ input[type="submit"] {
   -webkit-transform: translateX(-8.3rem);
   -ms-transform: translateX(-8.3rem);
   transform: translateX(-8.3rem);
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms; }
+  -webkit-transition-duration: 600ms;
+  -o-transition-duration: 600ms;
+  transition-duration: 600ms; }
 
-/* line 29, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_add-dish.scss */
+/* line 28, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/components/_add-dish.scss */
 .menu__input:checked ~ .menu__validated .fa-check-circle {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms; }
+  -webkit-transition-duration: 600ms;
+  -o-transition-duration: 600ms;
+  transition-duration: 600ms; }
 
 /* line 1, ../../Users/joufl/Documents/FormationsDevWeb/openclassrooms/P3_ohmyfood/GwendolineBenateau_3_22022021/sass/layout/_header.scss */
 .header {

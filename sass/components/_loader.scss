@@ -4,9 +4,7 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 1000;
-    right: 0;
-    left: 0;
+    z-index: 10;
     background-color: $white-color;
     @include flex-column; 
     -webkit-animation: loader 3s 3s both; 
@@ -14,17 +12,12 @@
 
     &__spinner
     {
-        margin: 20rem auto;
-        color: $primary-color;
-        font-size: 10rem;
+        margin: 20rem auto; 
         width: 1em;
         height: 1em;
         border-radius: 50%;
-        text-indent: -9999em;
-        overflow: hidden;
-        position: relative;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
+        color: $primary-color;
+        font-size: 10rem;
         -webkit-animation: 
             circles 1.5s infinite ease, 
             around 1.5s infinite ease;
