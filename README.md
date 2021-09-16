@@ -13,7 +13,7 @@ Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la rest
 [Brief créatif](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/blob/master/docs/BriefCreatif-Ohmyfood.pdf)
 
 ### Objectif
-Réalisation d'un prototype [mobile first](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/tree/master/docs/Maquettes) avec [animations](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/tree/master/docs/Animations) du site OhMyFood, en HTML et CSS avec utilisation d'un pré-compilateur SASS, sans JavaScript ni framework.
+Réalisation d'un prototype [mobile first](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021_Ohmyfood/tree/master/docs/maquettes) avec [animations](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/tree/master/docs/Animations) du site OhMyFood, en HTML et CSS avec utilisation d'un pré-compilateur SASS, sans JavaScript ni framework.
 
 
 ### Compétences évaluées
