@@ -40,8 +40,8 @@ Réalisation d'un prototype [mobile first](https://github.com/GwendolineBENATEAU
 - Google Font
 
 ## Présentation
-- Visualisation du prototype en ligne [GitHub Page](https://gwendolinebenateau.github.io/GwendolineBenateau_3_22022021_Ohmyfood/)
-- Slides de présentation du projet [Diaporama Ohmyfood](https://www.canva.com/design/DAEZnT0x0Vk/VFLHrd7f-rQRtbkPYyhuXQ/view?utm_content=DAEZnT0x0Vk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+- Visualisation du prototype en ligne sur [GitHub Page](https://gwendolinebenateau.github.io/GwendolineBenateau_3_22022021_Ohmyfood/)
+- Diaporama de présentation du projet [Ohmyfood](https://www.canva.com/design/DAEZnT0x0Vk/VFLHrd7f-rQRtbkPYyhuXQ/view?utm_content=DAEZnT0x0Vk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ## Auteurs
 Gwendoline Bénteau
