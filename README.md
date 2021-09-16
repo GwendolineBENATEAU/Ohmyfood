@@ -1,4 +1,4 @@
-![Ohmyfood](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/tree/master/docs/Presentation-projet-3.jpg)
+![Ohmyfood](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021_Ohmyfood/blob/master/docs/Presentation-projet-3.jpg)
 
 
 
