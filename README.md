@@ -3,7 +3,7 @@
 
 
 # Ohmyfood 
-Ohmyfood est le deuxième projet fictif à caractère pédagogique de la formation de Développeur Web (OpenClassRooms) qui consiste à dynamiser une page web avec des animations CSS.
+Ohmyfood est le deuxième projet individuel à caractère pédagogique du parcours formation de Développeur Web (OpenClassRooms) qui consiste à dynamiser une page web avec des animations CSS.
 
 ## Description du projet
 ### Scénario
