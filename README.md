@@ -1,4 +1,4 @@
-![Ohmyfood](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021_Ohmyfood/blob/master/docs/Presentation-projet-3.jpg)
+![Ohmyfood](https://github.com/GwendolineBENATEAU/Ohmyfood/blob/master/docs/Presentation-projet-3.jpg)
 
 
 
@@ -10,10 +10,10 @@ Ohmyfood est le deuxième projet individuel à caractère pédagogique du parcou
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques et qui permet de composer son menu à l'avance... ([lire la suite](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/blob/master/docs/DW-Projet2-OpenClassrooms.pdf))
 
 ### Documentation 
-[Brief créatif](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/blob/master/docs/BriefCreatif-Ohmyfood.pdf)
+[Brief créatif](https://github.com/GwendolineBENATEAU/Ohmyfood/blob/master/docs/BriefCreatif-Ohmyfood.pdf)
 
 ### Objectif
-Réalisation d'un prototype [mobile first](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021_Ohmyfood/tree/master/docs/maquettes) avec [animations](https://github.com/GwendolineBENATEAU/GwendolineBenateau_3_22022021/tree/master/docs/Animations) du site OhMyFood, en HTML et CSS avec utilisation d'un pré-compilateur SASS, sans JavaScript ni framework.
+Réalisation d'un prototype [mobile first](https://github.com/GwendolineBENATEAU/Ohmyfood/tree/master/docs/maquettes) avec [animations](https://github.com/GwendolineBENATEAU/Ohmyfood/tree/master/docs/Animations) du site OhMyFood, en HTML et CSS avec utilisation d'un pré-compilateur SASS, sans JavaScript ni framework.
 
 
 ### Compétences évaluées
@@ -40,7 +40,7 @@ Réalisation d'un prototype [mobile first](https://github.com/GwendolineBENATEAU
 - Google Font
 
 ## Présentation du projet
-- Visualisation du prototype en ligne sur [GitHub Page](https://gwendolinebenateau.github.io/GwendolineBenateau_3_22022021_Ohmyfood/)
+- Visualisation du prototype en ligne sur [GitHub Page](https://gwendolinebenateau.github.io/Ohmyfood/)
 - Diaporama de présentation du projet [Ohmyfood](https://www.canva.com/design/DAEZnT0x0Vk/VFLHrd7f-rQRtbkPYyhuXQ/view?utm_content=DAEZnT0x0Vk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 - Appréciation de l'évaluateur : 
 > *"Très bonne présentation de la part de Gwendoline. Respecte le cahier des charges, utilisation du SCSS et du pattern 7-1"* - Ibrahima Ciss
